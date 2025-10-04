@@ -1,0 +1,26 @@
+{
+  "interactables": [
+    {
+      "id": "welcome_sign",
+      "type": "sign",
+      "x": 128,
+      "y": 64,
+      "text": "Welcome to Benjamon's Portfolio! Press Z to interact with objects around the world."
+    },
+    {
+      "id": "projects_kiosk",
+      "type": "kiosk",
+      "x": 192,
+      "y": 96,
+      "text": "View my latest projects and demos.",
+      "video": "project_demo.mp4"
+    },
+    {
+      "id": "jukebox",
+      "type": "jukebox",
+      "x": 64,
+      "y": 96,
+      "text": "Toggle background music on/off."
+    }
+  ]
+}

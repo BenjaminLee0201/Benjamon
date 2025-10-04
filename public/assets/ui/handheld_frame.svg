@@ -1,0 +1,40 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1f2f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Console Body -->
+  <rect x="25" y="75" width="750" height="350" rx="40" ry="40" fill="url(#bodyGradient)" stroke="#333" stroke-width="4"/>
+  
+  <!-- Screen Bezel -->
+  <rect x="150" y="100" width="500" height="300" rx="15" ry="15" fill="#222" stroke="#444" stroke-width="4"/>
+  
+  <!-- Screen Area (transparent for game canvas) -->
+  <rect x="160" y="115" width="480" height="270" fill="transparent"/>
+  
+  <!-- D-Pad -->
+  <circle cx="100" cy="220" r="25" fill="#333" stroke="#555" stroke-width="3"/>
+  <circle cx="100" cy="220" r="18" fill="#555"/>
+  <text x="100" y="228" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">+</text>
+  
+  <!-- Action Buttons -->
+  <circle cx="680" cy="180" r="18" fill="#333" stroke="#555" stroke-width="2"/>
+  <text x="680" y="188" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">B</text>
+  
+  <circle cx="720" cy="220" r="18" fill="#333" stroke="#555" stroke-width="2"/>
+  <text x="720" y="228" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">A</text>
+  
+  <!-- Speaker Grill -->
+  <rect x="680" y="320" width="60" height="12" rx="6" ry="6" fill="#333"/>
+  <rect x="685" y="325" width="50" height="2" fill="#555"/>
+  <line x1="695" y1="327" x2="695" y2="329" stroke="#666" stroke-width="1"/>
+  <line x1="705" y1="327" x2="705" y2="329" stroke="#666" stroke-width="1"/>
+  <line x1="715" y1="327" x2="715" y2="329" stroke="#666" stroke-width="1"/>
+  <line x1="725" y1="327" x2="725" y2="329" stroke="#666" stroke-width="1"/>
+  
+  <!-- Console Label -->
+  <text x="400" y="450" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold" text-transform="uppercase" letter-spacing="2px">Game Boy Advance</text>
+</svg>

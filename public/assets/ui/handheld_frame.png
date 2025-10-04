@@ -1,0 +1,46 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- GBA Console Body -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f1f2f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#222;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Console Body -->
+  <rect x="50" y="100" width="700" height="300" rx="35" ry="35" fill="url(#bodyGradient)" stroke="#333" stroke-width="4"/>
+  
+  <!-- Screen Bezel -->
+  <rect x="200" y="180" width="400" height="240" rx="12" ry="12" fill="url(#screenGradient)" stroke="#444" stroke-width="6"/>
+  
+  <!-- Screen Area (transparent for game canvas) -->
+  <rect x="220" y="200" width="360" height="200" fill="none" stroke="none"/>
+  <rect x="220" y="200" width="360" height="200" fill="transparent"/>
+  
+  <!-- D-Pad -->
+  <circle cx="280" cy="320" r="35" fill="#333" stroke="#555" stroke-width="3"/>
+  <circle cx="280" cy="320" r="25" fill="#555"/>
+  <text x="280" y="330" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">+</text>
+  
+  <!-- Action Buttons -->
+  <circle cx="580" cy="300" r="20" fill="#333" stroke="#555" stroke-width="2"/>
+  <text x="580" y="308" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">B</text>
+  
+  <circle cx="620" cy="340" r="20" fill="#333" stroke="#555" stroke-width="2"/>
+  <text x="620" y="348" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">A</text>
+  
+  <!-- Speaker Grill -->
+  <rect x="650" y="420" width="60" height="12" rx="6" ry="6" fill="#333"/>
+  <rect x="655" y="425" width="50" height="2" fill="#555"/>
+  <line x1="665" y1="427" x2="665" y2="429" stroke="#666" stroke-width="1"/>
+  <line x1="675" y1="427" x2="675" y2="429" stroke="#666" stroke-width="1"/>
+  <line x1="685" y1="427" x2="685" y2="429" stroke="#666" stroke-width="1"/>
+  <line x1="695" y1="427" x2="695" y2="429" stroke="#666" stroke-width="1"/>
+  
+  <!-- Console Label -->
+  <text x="400" y="470" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold" text-transform="uppercase" letter-spacing="2px">Game Boy Advance</text>
+</svg>
