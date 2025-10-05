@@ -94,7 +94,7 @@
 
 ### Milestone 1: Core Framework (Week 1-2)
 - [x] Phaser 3 project setup and configuration
-- [ ] Basic tilemap loading and rendering
+- [x] Basic tilemap loading and rendering
 - [x] Player character with movement controls
 - [x] Camera system following player
 - [x] Collision detection system
