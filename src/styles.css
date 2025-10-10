@@ -6,7 +6,7 @@
 
 html, body {
   height: 100%;
-  background: #ccc;
+  background: white;
 }
 
 #gameboy-container {
@@ -15,7 +15,7 @@ html, body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #ccc;
+  background: white;
 }
 
 #gba-frame {
